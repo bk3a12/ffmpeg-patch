@@ -34235,9 +34235,9 @@ diff --git a/libavcodec/x86/Makefile b/libavcodec/x86/Makefile
 --- a/libavcodec/x86/Makefile
 +++ b/libavcodec/x86/Makefile
 @@ -49,7 +49,6 @@
- X86ASM-OBJS-$(CONFIG_ALAC_DECODER)     += x86/alacdsp_init.o
  X86ASM-OBJS-$(CONFIG_APNG_DECODER)     += x86/pngdsp_init.o
  X86ASM-OBJS-$(CONFIG_APV_DECODER)      += x86/apv_dsp_init.o
+ X86ASM-OBJS-$(CONFIG_BITPACKED_DECODER) += x86/bitpacked_init.o
 -X86ASM-OBJS-$(CONFIG_CAVS_DECODER)     += x86/cavsdsp.o
  X86ASM-OBJS-$(CONFIG_CFHD_DECODER)     += x86/cfhddsp_init.o
  X86ASM-OBJS-$(CONFIG_CFHD_ENCODER)     += x86/cfhdencdsp_init.o
